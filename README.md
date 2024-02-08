@@ -17,6 +17,19 @@ The objective of this analysis is to develop a deep learning model using a neura
   - Removing the SPECIAL_CONSIDERATIONS and STATUS columns, which were almost all one value.
   - Adding a third layer to increase model complexity.
   - Changing activation functions on the second and third layers as well as the output layer.
+## Model Construction Details
+To provide insight into the architecture of our neural network model, we have included a image representation of the model construction below:
+
+![Model Construction](model_construction.png)
+
+This image illustrates the layers, neurons, and activation functions used in our model, offering a comprehensive overview of its structure and complexity.
+## Model Performance: Accuracy
+
+The accuracy of our model is a crucial metric to assess its effectiveness in predicting funding application success. Below is a image representation of the model's accuracy over the training epochs:
+
+![Model Accuracy](model_accuracy2.png)
+
+This image illustrates how the accuracy of the model evolves over the training process. Understanding the trend of accuracy can provide insights into the model's learning behavior and performance improvement over time.
 
 ## Conclusion:
 The neural network model successfully achieved the target accuracy of 78% through various optimization techniques. The inclusion of the NAME column and adjustments to activation functions and layer complexity significantly contributed to improving model performance. This underscores the effectiveness of deep learning in predicting funding application success for Alphabet Soup.
