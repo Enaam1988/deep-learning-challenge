@@ -27,7 +27,7 @@ This image illustrates the layers, neurons, and activation functions used in our
 
 The accuracy of our model is a crucial metric to assess its effectiveness in predicting funding application success. Below is a image representation of the model's accuracy over the training epochs:
 
-![Model Accuracy](Starter_Code/model_accuracy2.png)
+![Model Accuracy](Starter_Code/model_construction2.png)
 
 This image illustrates how the accuracy of the model evolves over the training process. Understanding the trend of accuracy can provide insights into the model's learning behavior and performance improvement over time.
 ## Random Forest classifier
