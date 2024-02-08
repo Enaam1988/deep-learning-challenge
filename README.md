@@ -30,6 +30,13 @@ The accuracy of our model is a crucial metric to assess its effectiveness in pre
 ![Model Accuracy](model_accuracy2.png)
 
 This image illustrates how the accuracy of the model evolves over the training process. Understanding the trend of accuracy can provide insights into the model's learning behavior and performance improvement over time.
+## Random Forest classifier
+
+The Random Forest classifier, achieving an accuracy of 76.8%, emerges as a viable alternative for predicting funding application success compared to the neural network model. Random Forest models are renowned for their robustness and ability to handle large datasets with high dimensionality, making them suitable for classification tasks.
+
+Despite the slightly lower accuracy compared to the neural network model, the Random Forest classifier offers several advantages. Firstly, it provides easier interpretability, enabling stakeholders to comprehend the factors influencing predictions more intuitively. Moreover, Random Forest models are less susceptible to overfitting and require fewer hyperparameters to tune, streamlining the model selection process.
+
+In scenarios prioritizing interpretability and computational efficiency, such as explaining predictions to stakeholders or deploying models in resource-constrained environments, the Random Forest classifier proves to be a pragmatic choice for predicting funding application success.
 
 ## Conclusion:
 The neural network model successfully achieved the target accuracy of 78% through various optimization techniques. The inclusion of the NAME column and adjustments to activation functions and layer complexity significantly contributed to improving model performance. This underscores the effectiveness of deep learning in predicting funding application success for Alphabet Soup.
